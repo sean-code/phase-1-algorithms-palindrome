@@ -1,6 +1,19 @@
 function isPalindrome(word) {
   // Write your algorithm here
-}
+    const letters = word.split('');
+    const reverseLetters = letters.reverse();
+    const reverseString  = reverseLetters.join('')
+  
+    if (word === reverseString){
+      return true
+  
+    } else {
+      return false
+    }
+  
+  }
+  
+// isPalindrome(kayak)
 
 /* 
   Add your pseudocode here
